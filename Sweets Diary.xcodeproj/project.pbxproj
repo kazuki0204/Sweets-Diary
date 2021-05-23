@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647177FF2659FB2F004CAB51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647177FE2659FB2F004CAB51 /* AppDelegate.swift */; };
+		647178012659FB2F004CAB51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647178002659FB2F004CAB51 /* SceneDelegate.swift */; };
+		647178032659FB2F004CAB51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647178022659FB2F004CAB51 /* ViewController.swift */; };
+		647178062659FB2F004CAB51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647178042659FB2F004CAB51 /* Main.storyboard */; };
+		647178082659FB34004CAB51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647178072659FB34004CAB51 /* Assets.xcassets */; };
+		6471780B2659FB34004CAB51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 647178092659FB34004CAB51 /* LaunchScreen.storyboard */; };
+		647178162659FB34004CAB51 /* Sweets_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647178152659FB34004CAB51 /* Sweets_DiaryTests.swift */; };
+		647178212659FB34004CAB51 /* Sweets_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647178202659FB34004CAB51 /* Sweets_DiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		647178122659FB34004CAB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647177F32659FB2F004CAB51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647177FA2659FB2F004CAB51;
+			remoteInfo = "Sweets Diary";
+		};
+		6471781D2659FB34004CAB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 647177F32659FB2F004CAB51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 647177FA2659FB2F004CAB51;
+			remoteInfo = "Sweets Diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		647177FB2659FB2F004CAB51 /* Sweets Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sweets Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647177FE2659FB2F004CAB51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		647178002659FB2F004CAB51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		647178022659FB2F004CAB51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		647178052659FB2F004CAB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		647178072659FB34004CAB51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6471780A2659FB34004CAB51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6471780C2659FB34004CAB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		647178112659FB34004CAB51 /* Sweets DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweets DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647178152659FB34004CAB51 /* Sweets_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweets_DiaryTests.swift; sourceTree = "<group>"; };
+		647178172659FB34004CAB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6471781C2659FB34004CAB51 /* Sweets DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sweets DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		647178202659FB34004CAB51 /* Sweets_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sweets_DiaryUITests.swift; sourceTree = "<group>"; };
+		647178222659FB34004CAB51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		647177F82659FB2F004CAB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6471780E2659FB34004CAB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647178192659FB34004CAB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		647177F22659FB2F004CAB51 = {
+			isa = PBXGroup;
+			children = (
+				647177FD2659FB2F004CAB51 /* Sweets Diary */,
+				647178142659FB34004CAB51 /* Sweets DiaryTests */,
+				6471781F2659FB34004CAB51 /* Sweets DiaryUITests */,
+				647177FC2659FB2F004CAB51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		647177FC2659FB2F004CAB51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				647177FB2659FB2F004CAB51 /* Sweets Diary.app */,
+				647178112659FB34004CAB51 /* Sweets DiaryTests.xctest */,
+				6471781C2659FB34004CAB51 /* Sweets DiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		647177FD2659FB2F004CAB51 /* Sweets Diary */ = {
+			isa = PBXGroup;
+			children = (
+				647177FE2659FB2F004CAB51 /* AppDelegate.swift */,
+				647178002659FB2F004CAB51 /* SceneDelegate.swift */,
+				647178022659FB2F004CAB51 /* ViewController.swift */,
+				647178042659FB2F004CAB51 /* Main.storyboard */,
+				647178072659FB34004CAB51 /* Assets.xcassets */,
+				647178092659FB34004CAB51 /* LaunchScreen.storyboard */,
+				6471780C2659FB34004CAB51 /* Info.plist */,
+			);
+			path = "Sweets Diary";
+			sourceTree = "<group>";
+		};
+		647178142659FB34004CAB51 /* Sweets DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				647178152659FB34004CAB51 /* Sweets_DiaryTests.swift */,
+				647178172659FB34004CAB51 /* Info.plist */,
+			);
+			path = "Sweets DiaryTests";
+			sourceTree = "<group>";
+		};
+		6471781F2659FB34004CAB51 /* Sweets DiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				647178202659FB34004CAB51 /* Sweets_DiaryUITests.swift */,
+				647178222659FB34004CAB51 /* Info.plist */,
+			);
+			path = "Sweets DiaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		647177FA2659FB2F004CAB51 /* Sweets Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647178252659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets Diary" */;
+			buildPhases = (
+				647177F72659FB2F004CAB51 /* Sources */,
+				647177F82659FB2F004CAB51 /* Frameworks */,
+				647177F92659FB2F004CAB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sweets Diary";
+			productName = "Sweets Diary";
+			productReference = 647177FB2659FB2F004CAB51 /* Sweets Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		647178102659FB34004CAB51 /* Sweets DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 647178282659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets DiaryTests" */;
+			buildPhases = (
+				6471780D2659FB34004CAB51 /* Sources */,
+				6471780E2659FB34004CAB51 /* Frameworks */,
+				6471780F2659FB34004CAB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				647178132659FB34004CAB51 /* PBXTargetDependency */,
+			);
+			name = "Sweets DiaryTests";
+			productName = "Sweets DiaryTests";
+			productReference = 647178112659FB34004CAB51 /* Sweets DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6471781B2659FB34004CAB51 /* Sweets DiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6471782B2659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets DiaryUITests" */;
+			buildPhases = (
+				647178182659FB34004CAB51 /* Sources */,
+				647178192659FB34004CAB51 /* Frameworks */,
+				6471781A2659FB34004CAB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6471781E2659FB34004CAB51 /* PBXTargetDependency */,
+			);
+			name = "Sweets DiaryUITests";
+			productName = "Sweets DiaryUITests";
+			productReference = 6471781C2659FB34004CAB51 /* Sweets DiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		647177F32659FB2F004CAB51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					647177FA2659FB2F004CAB51 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					647178102659FB34004CAB51 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 647177FA2659FB2F004CAB51;
+					};
+					6471781B2659FB34004CAB51 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 647177FA2659FB2F004CAB51;
+					};
+				};
+			};
+			buildConfigurationList = 647177F62659FB2F004CAB51 /* Build configuration list for PBXProject "Sweets Diary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 647177F22659FB2F004CAB51;
+			productRefGroup = 647177FC2659FB2F004CAB51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				647177FA2659FB2F004CAB51 /* Sweets Diary */,
+				647178102659FB34004CAB51 /* Sweets DiaryTests */,
+				6471781B2659FB34004CAB51 /* Sweets DiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		647177F92659FB2F004CAB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6471780B2659FB34004CAB51 /* LaunchScreen.storyboard in Resources */,
+				647178082659FB34004CAB51 /* Assets.xcassets in Resources */,
+				647178062659FB2F004CAB51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6471780F2659FB34004CAB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6471781A2659FB34004CAB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		647177F72659FB2F004CAB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647178032659FB2F004CAB51 /* ViewController.swift in Sources */,
+				647177FF2659FB2F004CAB51 /* AppDelegate.swift in Sources */,
+				647178012659FB2F004CAB51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6471780D2659FB34004CAB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647178162659FB34004CAB51 /* Sweets_DiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		647178182659FB34004CAB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647178212659FB34004CAB51 /* Sweets_DiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		647178132659FB34004CAB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647177FA2659FB2F004CAB51 /* Sweets Diary */;
+			targetProxy = 647178122659FB34004CAB51 /* PBXContainerItemProxy */;
+		};
+		6471781E2659FB34004CAB51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 647177FA2659FB2F004CAB51 /* Sweets Diary */;
+			targetProxy = 6471781D2659FB34004CAB51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		647178042659FB2F004CAB51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				647178052659FB2F004CAB51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		647178092659FB34004CAB51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6471780A2659FB34004CAB51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		647178232659FB34004CAB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		647178242659FB34004CAB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		647178262659FB34004CAB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		647178272659FB34004CAB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		647178292659FB34004CAB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets DiaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweets Diary.app/Sweets Diary";
+			};
+			name = Debug;
+		};
+		6471782A2659FB34004CAB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets DiaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sweets Diary.app/Sweets Diary";
+			};
+			name = Release;
+		};
+		6471782C2659FB34004CAB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweets Diary";
+			};
+			name = Debug;
+		};
+		6471782D2659FB34004CAB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48F293G8D4;
+				INFOPLIST_FILE = "Sweets DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.marui.khaki.Sweets-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sweets Diary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		647177F62659FB2F004CAB51 /* Build configuration list for PBXProject "Sweets Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647178232659FB34004CAB51 /* Debug */,
+				647178242659FB34004CAB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647178252659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647178262659FB34004CAB51 /* Debug */,
+				647178272659FB34004CAB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		647178282659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647178292659FB34004CAB51 /* Debug */,
+				6471782A2659FB34004CAB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6471782B2659FB34004CAB51 /* Build configuration list for PBXNativeTarget "Sweets DiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6471782C2659FB34004CAB51 /* Debug */,
+				6471782D2659FB34004CAB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 647177F32659FB2F004CAB51 /* Project object */;
+}
